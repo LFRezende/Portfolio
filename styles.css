@@ -1,5 +1,6 @@
 body {
   margin: auto;
+  font-family: "Karla", sans-serif;
 }
 #banner {
   display: flex;
@@ -8,6 +9,13 @@ body {
   color: whitesmoke;
   background-color: black;
   padding: 15px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 #first {
@@ -16,10 +24,15 @@ body {
   align-items: center;
 }
 
+#second {
+  color: whitesmoke;
+  background-color: black;
+  margin: 10px auto;
+  padding: 10px 10px;
+}
 .center {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-
