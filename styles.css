@@ -1,0 +1,25 @@
+body {
+  margin: auto;
+}
+#banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  background-color: black;
+  padding: 15px;
+}
+
+#first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
